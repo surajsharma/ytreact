@@ -1,0 +1,24 @@
+.ui.menu.top-menu{
+    border: none; /*remove semantic's border*/
+
+    .logo {
+
+    }
+    .nav-container {
+        justify-content: space-between; /*maximize whitespace between elements*/
+        flex-grow: 1; /*By setting flex-grow to 1, we force the nav-container to span the entire available width that is not already covered by the logo element. */
+        padding: 0;
+    }
+
+    .search-input {
+        padding-left: 0 ;
+        width: 33%;
+        form {
+            width: 100%;
+        }
+    }
+
+    .header-icon {
+        color: #a0a0a0;
+    }
+}
