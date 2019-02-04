@@ -1,7 +1,10 @@
+@import '../../styles/shared.scss';
+
 .ui.menu.top-menu{
     border: none; /*remove semantic's border*/
 
     .logo {
+        width: $sidebar-left-width;
 
     }
     .nav-container {
